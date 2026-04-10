@@ -1,14 +1,10 @@
 # demo-endpoint-skills
 
-A demo [skills.sh](https://skills.sh/) repository containing a test skill for verifying Aikido's malware blocking capabilities.
-
-## Skills
-
-### endpoint-test
-
-A no-op skill that performs no real action. It exists solely as a detection target to confirm that Aikido can identify and block malicious packages.
+A demo [skills.sh](https://skills.sh/) repository containing a test skill (`endpoint-test`) to verify Endpoint's malware blocking.
 
 ## Installation
+
+Run the following command to install this skills repo, this should get blocked as malware by Aikido Endpoint.
 
 ```bash
 npx skills add Aikido-demo-apps/demo-endpoint-skills
